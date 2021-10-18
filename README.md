@@ -1,7 +1,7 @@
 X-Ray-Processing
 ==============================
 
-Using NLP and computer vision to detect/diagnose and label problems identified in X-Ray images
+Using NLP and computer vision to detect/diagnose and label problems identified in chest x-ray images
 
 Project Organization
 ------------
