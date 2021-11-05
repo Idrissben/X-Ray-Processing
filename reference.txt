@@ -1,0 +1,24 @@
+**Indepedent variables:**
+
+- uid: the unique identified for an X-ray.
+
+- MeSH: Medical Subject Hedical Subject Headings is a comprehensive controlled vocabulary.
+
+- Problems: key words corresponding to the problem identified.
+
+- image [DROPPED]: anonymized specifics of the type of imaging done. 
+
+- indication [DROPPED]: what the patient has been diagnosed with/described as the problem.
+
+- comparison [DROPPED]: (hypothesis: either a comparison to another patient in the past with a similar problem, or a comparison to an X-Ray made in the past on the same patient.
+
+- filename: associated image.
+
+- projection: Frontal or Lateral image.
+
+
+**Dependent variables:**
+
+- findings: input from doctor about findings made.
+
+- impression: final impression made by doctor.
