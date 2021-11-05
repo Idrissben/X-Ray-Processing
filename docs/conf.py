@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# x-ray_image_labelling documentation build configuration file, created by
+# x-ray_labelling documentation build configuration file, created by
 # sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -41,7 +41,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'x-ray_image_labelling'
+project = u'x-ray_labelling'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -164,7 +164,7 @@ html_static_path = ['_static']
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'x-ray_image_labellingdoc'
+htmlhelp_basename = 'x-ray_labellingdoc'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -184,8 +184,8 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
     ('index',
-     'x-ray_image_labelling.tex',
-     u'x-ray_image_labelling Documentation',
+     'x-ray_labelling.tex',
+     u'x-ray_labelling Documentation',
      u"Team AKAKI", 'manual'),
 ]
 
@@ -215,7 +215,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'x-ray_image_labelling', u'x-ray_image_labelling Documentation',
+    ('index', 'x-ray_labelling', u'x-ray_labelling Documentation',
      [u"Team AKAKI"], 1)
 ]
 
@@ -229,9 +229,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'x-ray_image_labelling', u'x-ray_image_labelling Documentation',
-     u"Team AKAKI", 'x-ray_image_labelling',
-     'Using NLP and computer vision to diagnose problems from X-Ray images and caption the images', 'Miscellaneous'),
+    ('index', 'x-ray_labelling', u'x-ray_labelling Documentation',
+     u"Team AKAKI", 'x-ray_labelling',
+     'Using NLP and computer vision to detect/diagnose and label problems identified in X-Ray images', 'Miscellaneous'),
 ]
 
 # Documents to append as an appendix to all manuals.

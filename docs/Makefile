@@ -77,17 +77,17 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/x-ray_image_labelling.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/x-ray_labelling.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/x-ray_image_labelling.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/x-ray_labelling.qhc"
 
 devhelp:
 	$(SPHINXBUILD) -b devhelp $(ALLSPHINXOPTS) $(BUILDDIR)/devhelp
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/x-ray_image_labelling"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/x-ray_image_labelling"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/x-ray_labelling"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/x-ray_labelling"
 	@echo "# devhelp"
 
 epub:

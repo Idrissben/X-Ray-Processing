@@ -4,7 +4,7 @@ setup(
     name='src',
     packages=find_packages(),
     version='0.1.0',
-    description='Using NLP and computer vision to diagnose problems from X-Ray images and caption the images',
+    description='Using NLP and computer vision to detect/diagnose and label problems identified in X-Ray images',
     author='Team AKAKI',
     license='MIT',
 )
