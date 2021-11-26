@@ -15,7 +15,7 @@ We utilize the [Chest X-Rays Indiana University](https://www.kaggle.com/raddar/c
 
 ## Project Breakdown
 Our process has been broken down into multiple steps (see `notebooks` directory):
-- Cleaning the Indiana X-Ray imaging data.
+- Cleaning the Indiana X-Ray imaging data ([Medium article](https://medium.com/@koredeakande001/part-1-cleaning-and-pre-processing-x-ray-data-647a038e0c33))
 - Exploring ways to increase and engineer features for better results.
 - Using machine learning, NLP, computer vision, and other methods to label the chest X-Rays.
 - Comparing the labels we generate against the actual label provided by the doctors.
@@ -30,22 +30,12 @@ Repository Organization
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources.
+    │   ├── image_data     <- Data for average frontal and lateral images
     │   ├── interim        <- Intermediate data that has been transformed.
     │   ├── processed      <- The final, canonical data sets for modeling.
     │   └── raw            <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
+    ├── notebooks          <- Jupyter notebooks. 
     │
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
@@ -53,6 +43,14 @@ Repository Organization
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
     │
     └── src                <- Source code for use in this project.
+
+Requirements
+------------
+To setup the project, run the following:
+```
+pip install -r requirements.txt
+```
+
 
 --------
 
