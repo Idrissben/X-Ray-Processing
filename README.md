@@ -20,10 +20,6 @@ Our process has been broken down into multiple steps (see `notebooks` directory)
 - Using machine learning, NLP, computer vision, and other methods to label the chest X-Rays.
 - Comparing the labels we generate against the actual label provided by the doctors.
 
-For example,
-- **Real Caption:** the lungs are hyperinflated with coarse interstitial markings compatible with obstructive pulmonary disease and emphysema periodseq there is chronic pleuralparenchymal scarring within the lung bases periodseq no lobar consolidation is seen periodseq no pleural effusion or pneumothorax periodseq heart size is normal period.
-- **Prediction Caption:** typical findings of pulmonary consolidation periodseq no pneumothorax periodseq there is no evidence for effusion.
-
 ---
 
 
