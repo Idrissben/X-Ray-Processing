@@ -1,7 +1,7 @@
 X-Ray-Image Labelling & Reporting
+*Using NLP and computer vision to detect/diagnose and label problems identified in chest x-ray images*
 ==============================
 
-**`Goal:`** Using NLP and computer vision to detect/diagnose and label problems identified in chest x-ray images
 **`Medium blog series:`** [Using Computer Vision and NLP to Caption X-Rays](https://medium.com/@Alexander.Bricken/project-overview-using-computer-vision-and-nlp-to-caption-x-rays-8aad99b27e61)
 
 ## Project Overview
