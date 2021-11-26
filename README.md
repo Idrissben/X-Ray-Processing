@@ -7,13 +7,18 @@ X-Ray-Image Labelling & Reporting
 
 ## Project Overview
 
-In summary, we are measuring the similarity of predicted captions to the actual captions provided by doctors.
+Automation has been a major driving force of increased efficiency, reliability, and speed across multiple industries, ranging from banking to transportation to agriculture. In this project, we investigate the potential of deep learning models to automate the process of medical image reporting, looking specifically at chest X-ray images.
 
-This is broken down into multiple steps:
-- Clean Indiana X-Ray imaging data.
-- Explore ways to increase and engineer features for better results.
-- Use machine learning, NLP, computer vision, and other methods to label the chest X-Rays.
-- Compare the labels we generate against the actual label provided by the doctors.
+Developing a deep learning model to generate/ support the reporting of findings and impressions from X-ray images would be a highly valuable development since it takes radiologists a significant amount of time to carry out this process for a large number of patients. Depending on the level of correctness achieved by the model, it may also be able to reduce human error, which is especially costly in the medical field.
+
+We utilize the [Chest X-Rays Indiana University](https://www.kaggle.com/raddar/chest-xrays-indiana-university?select=indiana_reports.csv) dataset hosted on Kaggle for this project. Our goal is to measure the similarity between our predicted captions and the actual captions provided by doctor's (as presented in the dataset). To do so, we evaluate our model's performance using the [BLEU metric](https://en.wikipedia.org/wiki/BLEU). 
+
+## Project Breakdown
+Our process has been broken down into multiple steps (see `notebooks` directory):
+- Cleaning the Indiana X-Ray imaging data.
+- Exploring ways to increase and engineer features for better results.
+- Using machine learning, NLP, computer vision, and other methods to label the chest X-Rays.
+- Comparing the labels we generate against the actual label provided by the doctors.
 
 For example,
 - **Real Caption:** the lungs are hyperinflated with coarse interstitial markings compatible with obstructive pulmonary disease and emphysema periodseq there is chronic pleuralparenchymal scarring within the lung bases periodseq no lobar consolidation is seen periodseq no pleural effusion or pneumothorax periodseq heart size is normal period.
@@ -22,7 +27,7 @@ For example,
 ---
 
 
-Project Organization
+Repository Organization
 ------------
 
     ├── LICENSE
