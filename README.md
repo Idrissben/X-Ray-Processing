@@ -37,6 +37,9 @@ Repository Organization
     │
     ├── notebooks          <- Jupyter notebooks. 
     │
+    ├── reference.txt      <- File containing self-determined descriptions of the variables
+    │                         as well as an indicator for variables dropped 
+    │                         
     ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
     │                         generated with `pip freeze > requirements.txt`
     │
